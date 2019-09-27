@@ -1,0 +1,3 @@
+services:
+    VerisureLab\Library\AAAGuardAuthenticator\Security\Provider\AAAUserProvider:
+        arguments: ['@verisure_lab.aaa_api_client.api_client']

@@ -1,0 +1,19 @@
+{
+    "name": "verisure-lab/aaa-guard-authenticator",
+    "type": "symfony-bundle",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [],
+    "require": {
+        "php": ">=7.2",
+        "symfony/framework-bundle": "^4.3",
+        "symfony/security": "^4.3",
+        "verisure-lab/aaa-api-client": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VerisureLab\\Library\\AAAGuardAuthenticatorBundle\\": "src/"
+        }
+    }
+}
